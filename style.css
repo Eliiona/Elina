@@ -1,0 +1,135 @@
+        body {
+             background: linear-gradient(
+                rgba(0, 0, 0, 0.5),
+                rgba(0, 0, 0, 0.5)), 
+                url('https://images.pexels.com/photos/1111318/pexels-photo-1111318.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260') no-repeat center center fixed;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            background-size: cover;
+            -o-background-size: cover;
+            padding: 30px;
+            height: 100%;
+        }
+        .main-text{
+            color: whitesmoke;
+            text-align: center
+        }
+        .main-text a{
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .main-link{
+            margin: 10px;
+            padding:10px;
+            font-size: 26px;
+        }
+        header{
+            margin-bottom: 75px;
+        }
+        .orient-left{
+            text-align:left;
+        }
+        hr {
+            opacity: 0.80;
+            height: 3px;
+            background: -webkit-gradient(linear, 0 0, 100% 0, from(rgba(0,0,0,0)), to(rgba(0,0,0,0)), color-stop(50%, deeppink));
+        }
+        footer{
+            bottom:0;
+            height:20px;
+        }
+        .active{
+            background-color:rgba(255, 20, 145, 0.5);
+        }
+        #content{
+            height:calc(100% - 150px);
+            height:-moz-calc(100% - 150px);
+            height:-webkit-calc(100% - 150px);
+        }
+        .article-profile{
+            position: absolute; /* Take your picture out of the flow */
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0; /* Make the picture taking the size of it's parent */
+            width: 100%; /* This if for the object-fit */
+            height: 100%; /* This if for the object-fit */
+            object-fit: cover; /* Equivalent of the background-size: cover; of a background-image */
+            object-position: center;
+        }
+        .article-row{
+            height:155px;
+        }
+        .article-text{
+            height:100%;
+            overflow: hidden;
+            display: -webkit-box;
+            -webkit-line-clamp: 5;
+            -webkit-box-orient: vertical; 
+        }
+        .article-text-small{
+            height:100%;
+            overflow: hidden;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical; 
+        }
+        .article-pic{
+            width:100%;
+        }
+        .backdrop{
+            background-color: rgba(245, 245, 245, 0.1);
+            padding:1%;
+        }
+        .main-photo{
+            padding:2%
+        }
+        .photo-row{
+            height:20%;
+            padding:1%
+        }
+
+        .mapouter{
+            position:relative;
+            text-align:right;
+            height:100%;
+            width:100%;}
+        .gmap_canvas {
+            overflow:hidden;
+            background:none!important;
+            height:100%;
+            width:100%;
+        }
+
+        /*-------chat-------*/
+        #chat{
+            background-color: rgba(245, 245, 245, 0.25);
+            padding: 30px;
+            padding-bottom: 10px;
+            height: calc(100%-150px);
+        }
+        hr.chat{
+            background: -webkit-gradient(linear, 0 0, 100% 0, from(rgba(0,0,0,0)), 
+            to(rgba(0,0,0,0)), color-stop(50%, whitesmoke));
+        }
+        .chat{background-color: rgba(245, 245, 245, 0.65);}
+        input.input {width: 100%;}
+        .input{
+            border-radius: 10px;
+        }
+        #chat-button{color:#666}
+        #chat-button:hover{background-color: rgba(245, 245, 245, 0.65);}
+        .message{
+            background-color: rgba(245, 245, 245, 0.25);
+            margin-bottom: 1px;
+        }
+        .message div{text-align: left;}
+        #message-field{
+            overflow-x: hidden;
+            overflow-y:auto;
+            height: calc(100%-150px);
+        }
+        input{
+            margin:5px;
+        }
